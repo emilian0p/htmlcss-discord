@@ -1,0 +1,204 @@
+/* valori fissi */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* a:hover{
+    cursor: pointer;
+} */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h3{
+    font: 35px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+header{
+    background-color: rgb(37, 94, 233);
+}
+.navigation-head{
+    padding: 10px 20%;
+}
+.container{
+    display: flex;
+    margin: 0;
+}
+.button{
+    border-radius: 40px;
+    line-height: 40px;
+    padding: 5px 10px;
+}
+/* header */
+.top-head{
+    width: 100%;
+    background-color: rgb(37, 94, 233);
+    justify-content: space-between;
+}
+.logo{
+    padding: 10px;
+}
+.logo img{
+    max-width: fit-content;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.login{
+    background-color: white;
+}
+.login a{
+    color: black;
+}
+.jumbo{
+    padding: 100px 30%;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    align-items: center;
+}
+.jumbo h1{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.jumbo p{
+    font-size: 25px;
+}
+.jumbo .button{
+    display: inline-block;
+    margin: 10px;
+}
+.jumbo-click{
+    padding: 10px 0;
+}
+.jumbo .jumbo-click1{
+    background-color: white;
+}
+.jumbo .jumbo-click1 a{
+    color: black;
+}
+.jumbo .jumbo-click2{
+    background-color: rgba(23, 23, 23, 0.897);
+}
+
+.jumbo .jumbo-click2 a{
+    color: white;
+}
+/* main */
+.mid1, .mid3{
+    background-color: white;
+    padding: 100px 20%;
+}
+.mid2, .mid4{
+    background-color: #DBDBDB;
+    padding: 100px 20%;
+}
+
+.item-txt{
+    margin-top: 30px;
+}
+.item-txt h2{
+    font-size: 70px;
+    line-height: 60px;
+}
+.content-txt{
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.bot h2{
+    font-size: 70px;
+    line-height: 60px;
+}
+.under h4{
+    margin-top: 100px;
+}
+.under{
+    position: relative;
+}
+.under .button{
+    background-color: rgb(92, 113, 234);
+    margin: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.bot{
+    padding-top: 70px;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+.mid4-click a{
+    color: white;
+}
+/* footer */
+footer{
+    background-color: rgba(23, 23, 23, 0.897);
+}
+.navigation-foot{
+    padding: 100px 15% 20px;
+}
+footer ul{
+    color: white;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 80px;
+}
+ul{
+    margin: 0 30px;
+}
+li{
+    display: inline-block;
+}
+ul > li:first-child{
+    color: rgb(92, 113, 234);
+}
+.foot-sx{
+    flex-flow: column nowrap;
+    color: white;
+}
+.foot-sx h4{
+    color: rgb(92, 113, 234);
+}
+.foot-sx img{
+    height: 15px;
+}
+.it{
+    margin-top: 15px;
+}
+.media{
+    display: flex;
+}
+.media i{
+    margin: 15px;
+}
+.end-foot{
+    padding:20px 20% 0 20%;
+}
+.end-content{
+    justify-content: space-between;
+    padding: 10px;
+    border-top: rgb(92, 113, 234) solid 1px;
+}
+.logo-foot{
+    padding: 5px 0;
+}
+.button-foot{
+    background-color: rgb(92, 113, 234);
+    color: white;
+}
